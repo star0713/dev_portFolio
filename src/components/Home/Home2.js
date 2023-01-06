@@ -8,8 +8,8 @@ import {
   AiFillInstagram,
   AiOutlineMail,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-
+import { FaDiscord, FaLinkedinIn, FaTelegram } from "react-icons/fa";
+import config from "../config.json";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -23,25 +23,27 @@ function Home2() {
               <br />
               I'm a{" "}
               <i className="primary-header">
-                Self-Taught Web Developer
+                Self-Taught Full-Stack | Blockchain Developer
               </i>{" "}
-              who loves solving problems and building Websites.
+              who loves solving problems and building Software.
               <br />
               <br />I am passionate about{" "}
-              <i className="primary-header">technologies</i> and love to learn
+              <i className="primary-header">new technologies</i> and love to learn
               new things.
               <br />
               <br />I am more interested in building new
               <i>
-                <i className="primary-header">Web Technologies and Products.</i>
+                <i className="primary-header"> Technologies and Products.</i>
               </i>
               <br />
               <br />I always apply my experience in developing products with{" "}
               <i className="primary-header">Node.js</i> and Modern Javascript
               Library and Framework like
-              
-                <i className="primary-header"> React.js.</i>
-              
+
+              <i className="primary-header"> React.js.</i>
+              <br />
+              <br />
+              Also I'm a enthusiast blockchain Dapp developer who versed in extensive technique like NFT and Metaverse platform
               <br />
               <br />
               Currently expanding my portfolio by building more{" "}
@@ -69,7 +71,7 @@ function Home2() {
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a
-                  href="https://github.com/"
+                  href={config.github}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -79,27 +81,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="mailto:@outlook.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineMail />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in//"
+                  href={config.linkedin}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -109,14 +91,46 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/dead.programmer/"
+                  href={config.telegram}
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <FaTelegram />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href={config.discord}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaDiscord />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href={config.twitter}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineTwitter />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href={config.mail}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>
+              
+             
             </ul>
           </Col>
         </Row>

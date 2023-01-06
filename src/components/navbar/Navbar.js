@@ -4,8 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import { ThemeContext } from "../../Context/theme";
 
 import Container from "react-bootstrap/Container";
-import logoLight from "../../Assets/logoLight.png";
-import logoDark from "../../Assets/logoDark.png";
+import logo from "../../Assets/logo.png";
+
 
 import { Link } from "react-router-dom";
 import "./navbar.css";
@@ -46,7 +46,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <img
-            src={themename === "light" ? logoDark : logoLight}
+            src={themename === "light" ? logo : logo}
             className="img-fluid logo"
             alt="brand"
           />

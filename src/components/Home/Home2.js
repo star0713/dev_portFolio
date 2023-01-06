@@ -23,25 +23,27 @@ function Home2() {
               <br />
               I'm a{" "}
               <i className="primary-header">
-                Self-Taught Web Developer
+                Self-Taught Full-Stack | Blockchain Developer
               </i>{" "}
-              who loves solving problems and building Websites.
+              who loves solving problems and building Software.
               <br />
               <br />I am passionate about{" "}
-              <i className="primary-header">technologies</i> and love to learn
+              <i className="primary-header">new technologies</i> and love to learn
               new things.
               <br />
               <br />I am more interested in building new
               <i>
-                <i className="primary-header">Web Technologies and Products.</i>
+                <i className="primary-header"> Technologies and Products.</i>
               </i>
               <br />
               <br />I always apply my experience in developing products with{" "}
               <i className="primary-header">Node.js</i> and Modern Javascript
               Library and Framework like
-              
-                <i className="primary-header"> React.js.</i>
-              
+
+              <i className="primary-header"> React.js.</i>
+              <br />
+              <br />
+              Also I'm a enthusiast blockchain Dapp developer who versed in extensive technique like NFT and Metaverse platform
               <br />
               <br />
               Currently expanding my portfolio by building more{" "}
@@ -69,7 +71,7 @@ function Home2() {
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/star0713"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

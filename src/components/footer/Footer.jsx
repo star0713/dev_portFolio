@@ -3,10 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
   AiOutlineMail,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaDiscord, FaTelegram } from "react-icons/fa";
 import "./footer.css";
 import config from "../config.json";
 
@@ -23,62 +22,69 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                style={{ color: `var(--clr-primary)` }}
-                className="github"
-                href="https://github.com/Rahuljha4171"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                style={{ color: `var(--clr-primary)` }}
-                className="twitter"
-                href="https://twitter.com/Rahuljha4171"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                style={{ color: `var(--clr-primary)` }}
-                className="email"
-                href="mailto:rahuljha4171@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineMail />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                style={{ color: `var(--clr-primary)` }}
-                className="linkedin"
-                href="https://www.linkedin.com/in/Rahuljha4171/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                style={{ color: `var(--clr-primary)` }}
-                className="instagram"
-                href="https://www.instagram.com/dead.programmer/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
-          </ul>
+              <li className="social-icons">
+                <a
+                  href={config.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href={config.linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href={config.telegram}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaTelegram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href={config.discord}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaDiscord />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href={config.twitter}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineTwitter />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href={config.mail}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>
+              
+             
+            </ul>
         </Col>
       </Row>
     </Container>

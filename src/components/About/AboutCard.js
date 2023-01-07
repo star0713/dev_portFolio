@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import config from "../config.json";
 
 function AboutCard() {
   return (
@@ -8,15 +9,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0" data-aos="zoom-in">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="primary-header">Rahul Jha</span> from Darbhanga, Bihar, India. I am a computer science graduate and a passionate programmer.
+            Hi Everyone, I am <span className="primary-header">{config.firstName} {config.lastName}</span> from {config.location}. I am a computer science graduate and a passionate programmer.
             <br />
             <br />
             In addition to coding, here are some other things I enjoy doing!
           </p>
           <ul>
-            <li className="about-activity">
-              <AiOutlineArrowRight /> Writing Tech Blogs
-            </li>
             <li className="about-activity">
               <AiOutlineArrowRight /> Reading Books
             </li>

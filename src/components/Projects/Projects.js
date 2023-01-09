@@ -7,6 +7,10 @@ import PrivateChat from "../../Assets/Projects/PrivateChat.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
 import Ecart from "../../Assets/Projects/ecart.png";
 import ExpenseTracker from "../../Assets/Projects/ExpenseTracker.png";
+import Woman from "../../Assets/Projects/woman.png";
+import slam from "../../Assets/Projects/slam.png";
+import bubblex from "../../Assets/Projects/bubblex.png";
+import beat from "../../Assets/Projects/beat.png";
 
 import "./project.css";
 
@@ -21,11 +25,43 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
+              imgPath={Woman}
+              title="Woman's world"
+              description="This is a NFT mint site for 'woman's world' NFT"
+              ghLink="https://github.com/star0713/woman-s-world-nft-mint-website-ui/"
+              demoLink="https://rubmarketplace-ae4a4.web.app"
+            />
+          </Col>
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={slam}
+              title="Slam NFT marketplace"
+              description="This is a NFT Marketplace to to buy, sell, mint & collect content NFTs all in one app powered by Slamcoin."
+              demoLink="https://slamcoin.io/"
+            />
+          </Col>
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={bubblex}
+              title="Bubble NFT"
+              description="Bubble NFT mint site. Built with React.js and Laravel"
+              demoLink="https://bubblex.io/"
+            />
+          </Col>
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={beat}
+              title="Music App"
+              description="Users can listen music and record their song. Built with React Native"
+              ghLink="https://github.com/star0713/beat-app"
+            />
+          </Col>
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
               imgPath={Ecart}
               title="E Cart"
               description="This is a fully functional eCommerce website that uses React.js + MUI and CSS in the front end and NodeJs and express js in backend and MongoDb as Database."
-              ghLink="https://github.com/rahuljha4171/E-cart"
-              demoLink="https://ecart.onrender.com/"
+              ghLink="https://github.com/star0713/E-cart"
             />
           </Col>
 
@@ -34,29 +70,13 @@ function Projects() {
               imgPath={Portfolio}
               title="Portfolio Website"
               description="My personal Portfolio Website build with React and Bootstrap. It is fully responsive website which supports both dark and light mode."
-              ghLink="https://github.com/rahuljha4171/Portfolio-Website"
-              demoLink="https://rahuljha.tech/"
+              ghLink="https://github.com/star0713/dev_portFolio"
+              demoLink="https://portfolio-62c9b.web.app/"
             />
           </Col>
-          <Col md={6} lg={4} className="project-card">
-            <ProjectCard
-              imgPath={PrivateChat}
-              title="Private Chat"
-              description="A Personal Chat Application to share resources and hangout with friends build with react.js, css, and Firebase. Have features which allows user for realtime messaging, image sharing and search user."
-              ghLink="#"
-              demoLink="https://chat-app-rahuljha4171.vercel.app/"
-            />
-          </Col>
+         
 
-          <Col md={6} lg={4} className="project-card">
-            <ProjectCard
-              imgPath={ExpenseTracker}
-              title="Expense Tracker"
-              description="An online expense tracker using React, Node, Express, and MongoDB as the database. It allows you to keep track of your expenses, investments, and savings. All past transactions are listed, and you can also delete them. "
-              ghLink="https://github.com/rahuljha4171/Expense-Tracker"
-              demoLink="https://expense-tracker.rahuljha4171.vercel.app/"
-            />
-          </Col>
+    
         </Row>
       </Container>
       <ScrollToTop />

@@ -53,7 +53,7 @@ function Projects() {
             <ProjectCard
               imgPath={vision}
               title="Music Web App"
-              description="Users can listen music and record their song. Built with React Native"
+              description="This is admin dashboard to manage the music mobile app"
               ghLink="https://github.com/star0713/beat_box_admin_frontend_firebase"
               demoLink="https://beatbox-eb2b7.firebaseapp.com/sign-in"
             />

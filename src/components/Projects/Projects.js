@@ -51,7 +51,15 @@ function Projects() {
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={beat}
-              title="Music App"
+              title="Music Mobile App"
+              description="Users can listen music and record their song. Built with React Native"
+              ghLink="https://github.com/star0713/beat-app"
+            />
+          </Col>
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={beat}
+              title="Music Web App"
               description="Users can listen music and record their song. Built with React Native"
               ghLink="https://github.com/star0713/beat-app"
             />

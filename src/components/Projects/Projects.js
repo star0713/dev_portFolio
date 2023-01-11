@@ -53,7 +53,8 @@ function Projects() {
               imgPath={beat}
               title="Music Mobile App"
               description="Users can listen music and record their song. Built with React Native"
-              ghLink="https://github.com/star0713/beat-app"
+              ghLink="https://github.com/star0713/beat_box_admin_frontend_firebase"
+              demoLink="https://beatbox-eb2b7.firebaseapp.com/sign-in"
             />
           </Col>
           <Col md={6} lg={4} className="project-card">

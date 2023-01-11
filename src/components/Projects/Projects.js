@@ -11,6 +11,7 @@ import Woman from "../../Assets/Projects/woman.png";
 import slam from "../../Assets/Projects/slam.png";
 import bubblex from "../../Assets/Projects/bubblex.png";
 import beat from "../../Assets/Projects/beat.png";
+import vision from "../../Assets/Projects/vision.png";
 
 import "./project.css";
 
@@ -50,8 +51,8 @@ function Projects() {
           </Col>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={beat}
-              title="Music Mobile App"
+              imgPath={vision}
+              title="Music Web App"
               description="Users can listen music and record their song. Built with React Native"
               ghLink="https://github.com/star0713/beat_box_admin_frontend_firebase"
               demoLink="https://beatbox-eb2b7.firebaseapp.com/sign-in"
@@ -60,7 +61,7 @@ function Projects() {
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={beat}
-              title="Music Web App"
+              title="Music Mobile App"
               description="Users can listen music and record their song. Built with React Native"
               ghLink="https://github.com/star0713/beat-app"
             />

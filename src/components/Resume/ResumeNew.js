@@ -9,7 +9,7 @@ import ScrollToTop from "../ScrollToTop/ScrollToTop";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/star0713/resume-full/844801165d5a29a9e421a05b194cf7c11130048d/full-stack.pdf";
+  "https://raw.githubusercontent.com/star0713/resume-full/ba525d2b15b411b619ed42b64327ec9f7b82a86b/full-stack.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -24,7 +24,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://raw.githubusercontent.com/star0713/resume-full/844801165d5a29a9e421a05b194cf7c11130048d/full-stack.pdf"
+            href="https://raw.githubusercontent.com/star0713/resume-full/ba525d2b15b411b619ed42b64327ec9f7b82a86b/full-stack.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -42,7 +42,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://raw.githubusercontent.com/star0713/resume-full/844801165d5a29a9e421a05b194cf7c11130048d/full-stack.pdf"
+            href="https://raw.githubusercontent.com/star0713/resume-full/ba525d2b15b411b619ed42b64327ec9f7b82a86b/full-stack.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >

@@ -1,6 +1,6 @@
 <h2 align="center">
    Portfolio Website<br/>
-  <a href="https://my-portfolio-product.web.app/" target="_blank">my-portfolio-product.web.app</a>
+  <a href="https://portfolio-62c9b.web.app" target="_blank">portfolio-62c9b.web.app</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme_img.png" />
@@ -15,7 +15,7 @@
 
 </div>
 
-You can fork this repo to modify and make changes according to your need. Please give me proper credit by linking back to [star0713](https://github.com/star0713/Portfolio-Website). Thanks in Advance😍!
+You can fork this repo to modify and make changes according to your need. Please give me proper credit by linking back to [star0713](https://github.com/star0713/dev_portFolio). Thanks in Advance😍!
 
 ## Built With
 

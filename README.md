@@ -19,7 +19,7 @@ You can fork this repo to modify and make changes according to your need. Please
 
 ## Built With
 
-My personal portfolio website <a href="https://my-portfolio-product.web.app/" target="_blank">my-portfolio-product.web.app</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio website <a href="https://portfolio-62c9b.web.app/" target="_blank">portfolio-62c9b.web.app</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project is built using these technologies.
 
